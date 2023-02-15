@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body{
+  background-image: url("https://wallpaperaccess.com/full/5466289.jpg");
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card{
+  margin:auto;
+  margin-top:12rem;
+  float:none;
+   width: 25rem;
+   height:18em;
+   /* background-color:black; */
+    opacity: .7;
+    background-image:url("https://i.pinimg.com/originals/f9/aa/a4/f9aaa4a9a402503edd577d665fb22d5b.gif")
+}
+.item{
+  opacity:.7;
+  background-color:#6F94A2;
+  border:none;
 }
